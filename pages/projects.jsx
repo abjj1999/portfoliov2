@@ -3,11 +3,10 @@ import { projects } from "../utils/index";
 
 import IconDisplay from "../components/IconDisplay";
 import ProjectCard from "../components/ProjectCard";
-import { location } from "next/router";
 
 const Projects = () => {
   // console.log(projects);
-  console.log(window.location.pathname);
+
   return (
     <div className="flex w-full flex-col  justify-between">
       <div className="text- h-[10vh]">
