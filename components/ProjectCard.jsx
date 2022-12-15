@@ -39,12 +39,17 @@ const ProjectCard = ({ project, key }) => {
       </div>
       <div className="mt-3 flex flex-row justify-around items-center">
         <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] py-2 px-3 rounded-[10px] bg-gradient-to-r from-sky-300 to-blue-500 hover:from-purple-500 hover:to-red-500">
-          <Link href={project.github} passHref>
+          <Link href={project.github} passHref rel="noreferrer" target="_blank">
             Github
           </Link>
         </button>
         <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] py-2 px-3 rounded-[10px] bg-gradient-to-r from-purple-400 to-red-500 hover:from-sky-500 hover:to-blue-500">
-          <Link href={project.live_app} passHref>
+          <Link
+            href={project.live_app}
+            passHref
+            rel="noreferrer"
+            target="_blank"
+          >
             Live
           </Link>
         </button>
