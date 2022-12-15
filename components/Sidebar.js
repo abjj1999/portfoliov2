@@ -13,7 +13,7 @@ const Sidebar = () => {
   const [active, setActive] = useState("Home");
   const [light, setLight] = useState(false);
   return (
-    <div className="flex justify-between items-center flex-col sticky h-[90vh]">
+    <div className="flex justify-between items-center flex-col sticky ">
       <h1 className=" font-epilogue font-bold text-[20px] text-white bg-[#1c1c24] p-3 rounded-[20px]">
         {`<`}
         <span className="text-red-500">A</span>

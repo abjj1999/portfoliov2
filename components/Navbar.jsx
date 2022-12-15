@@ -12,7 +12,7 @@ import {
   AiOutlineProject,
 } from "react-icons/ai";
 import { FaHamburger } from "react-icons/fa";
-import { GiTigerHead } from "react-icons/gi";
+import { GiMagicLamp } from "react-icons/gi";
 const Navbar = () => {
   const [toggleDrawer, setToggleDrawer] = useState(false);
   const [active, setActive] = useState("Home");
@@ -29,12 +29,12 @@ const Navbar = () => {
           Reach out
         </button>
         <div className="w-[52px] h-[52px] rounded-full bg-[#2c2f32] flex justify-center items-center cursor-pointer ">
-          <GiTigerHead className="text-[40px] text-white" />
+          <GiMagicLamp className="text-[40px] text-white" />
         </div>
       </div>
       <div className="sm:hidden flex justify-between items-center">
         <div className="w-[40px] h-[40px] rounded-[10px]  flex justify-center items-center cursor-pointer ">
-          <GiTigerHead className="text-[40px] text-white cursor-pointer" />
+          <GiMagicLamp className="text-[40px] text-white cursor-pointer" />
         </div>
         <FaHamburger
           className="text-[40px] text-white cursor-pointer"
