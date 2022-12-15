@@ -72,29 +72,6 @@ const Sidebar = () => {
                 </h3>
               </div>
             </Link>
-            <Link href="/contact">
-              <div
-                onClick={() => setActive("reach")}
-                key="reach"
-                className="m-4 flex justify-center flex-col items-center gap-1 cursor-pointer"
-              >
-                <AiOutlineContacts
-                  className={`text-white text-[20px] 
-                ${active === "reach" && "text-red-500 text-[40px]"}
-                `}
-                />
-                <h3
-                  className={`font-epilogue font-semibold text-white uppercase
-                ${
-                  active === "reach" &&
-                  "underline decoration-red-500 underline-offset-4  "
-                }
-                `}
-                >
-                  Reach
-                </h3>
-              </div>
-            </Link>
           </div>
         </div>
         <div>

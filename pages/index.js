@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className="animate__animated animate__slideInRight text-white font-bold font-epilogue text-[60px] uppercase lg:ml-[250px]">
             portfolio
           </h1>
-          <div className="flex justify-between">
+          <div className="flex justify-end">
             <GiEnergyArrow
               className="text-center hover:animate-spin text-red-400 text-[50px] "
               style={{ animationDuration: "2s" }}

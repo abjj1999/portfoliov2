@@ -14,22 +14,44 @@ import {
 import { FaHamburger } from "react-icons/fa";
 import { GiMagicLamp } from "react-icons/gi";
 const Navbar = () => {
+  const handleClicked = (e) => {
+    e.preventDefault();
+    const ContactBar = document.querySelector(".contact");
+    ContactBar.classList.add("animate__animated", "animate__shakeX");
+  };
   const [toggleDrawer, setToggleDrawer] = useState(false);
   const [active, setActive] = useState("Home");
   return (
     <div className="flex md:flex-row flex-col justify-between gap-6 mb-[35px]">
-      <div className="lg:flex-2 flex flex-row justify-between w-full max-w-[458px] rounded-[15px] py-2 pl-4 pr-2 h-[52px] bg-[#1c1c24]">
-        <AiFillGithub className="text-[30px] text-white" />
-        <AiFillLinkedin className="text-[30px] text-white ml-4" />
-        <AiFillPhone className="text-[30px] text-white ml-4" />
-        <AiOutlineMail className="text-[30px] text-white ml-4" />
+      <div className="contact lg:flex-2 flex flex-row justify-between w-full max-w-[458px] rounded-[15px] py-2 pl-4 pr-2 h-[52px] bg-[#1c1c24]">
+        <a
+          href="https://github.com/abjj1999"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillGithub className="text-[30px] text-white hover:text-red-400" />
+        </a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          <AiFillLinkedin className="text-[30px] text-white ml-4 hover:text-sky-400" />
+        </a>
+        <a href="tel:+3468121212">
+          <AiFillPhone className="text-[30px] text-white ml-4 hover:text-red-400" />
+        </a>
+        <a href="mailto:abdullahalhilfi21@gmail.com">
+          <AiOutlineMail className="text-[30px] text-white ml-4 hover:text-sky-400" />
+        </a>
       </div>
       <div className="sm:flex hidden flex-row justify-end gap-4">
-        <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] min-h-[52px] px-4 rounded-[10px] bg-gradient-to-r from-sky-300 to-blue-500 hover:from-purple-500 hover:to-red-500 ">
+        <button
+          onClick={handleClicked}
+          className="font-epilogue font-semibold text-[16px] text-white leading-[26px] min-h-[52px] px-4 rounded-[10px] bg-gradient-to-r from-sky-300 to-blue-500 hover:from-purple-500 hover:to-red-500 "
+        >
           Reach out
         </button>
         <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] min-h-[52px] px-4 rounded-[10px] bg-gradient-to-r from-green-300 to-blue-500 hover:from-blue-500 hover:to-red-500 ">
-          Play Chess
+          <a href="http://chess-game-seven.vercel.app/" target="_blank">
+            Play Chess
+          </a>
         </button>
 
         <div className="w-[52px] h-[52px] rounded-full bg-[#2c2f32] flex justify-center items-center cursor-pointer ">
