@@ -48,7 +48,8 @@ export default function Home() {
               <GiSparrow className="my-5 mx-3 animate-bounce text-red-400 text-[25px]" />
             </div>
             <p className="  w-[80%] text-white gap-2 font-epilogue text-[18px]">
-              My name is <span className="text-red-400">Abdullah</span>. <br />
+              My name is <span className="text-red-400">Abdullah </span> or{" "}
+              <span className="text-red-400">AB</span> . <br />
               I'm a <span className="text-blue-400">Full-Stack Developer </span>
               from <span className="text-red-400">Houston, TX</span>. <br />
               I'm currently a <span className="text-blue-400">
