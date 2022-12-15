@@ -25,9 +25,13 @@ const Navbar = () => {
         <AiOutlineMail className="text-[30px] text-white ml-4" />
       </div>
       <div className="sm:flex hidden flex-row justify-end gap-4">
-        <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] min-h-[52px] px-4 rounded-[10px] bg-sky-500 ">
+        <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] min-h-[52px] px-4 rounded-[10px] bg-gradient-to-r from-sky-300 to-blue-500 hover:from-purple-500 hover:to-red-500 ">
           Reach out
         </button>
+        <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] min-h-[52px] px-4 rounded-[10px] bg-gradient-to-r from-green-300 to-blue-500 hover:from-blue-500 hover:to-red-500 ">
+          Play Chess
+        </button>
+
         <div className="w-[52px] h-[52px] rounded-full bg-[#2c2f32] flex justify-center items-center cursor-pointer ">
           <GiMagicLamp className="text-[40px] text-white" />
         </div>

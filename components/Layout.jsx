@@ -8,9 +8,9 @@ const Layout = ({ children }) => {
       <div className="sm:flex hidden mr-8 relative">
         <Sidebar />
       </div>
-      <div className="flex-1 max-sm:w-full  mx-auto mr-auto">
+      <div className="flex-1 max-sm:w-full  mx-auto">
         <Navbar />
-        {children}
+        <div className="flex  min-h-screen w-full">{children}</div>
       </div>
     </div>
   );

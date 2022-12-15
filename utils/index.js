@@ -1,8 +1,8 @@
-export const project = [
+export const projects = [
   {
     name: "Code Sources",
     description: "A website that allows users to share their code with others.",
-    image: "/imgs/code-sources.png",
+    image: "/imgs/code_sources.png",
     tags: ["Next.js", "React", "Antd", "MongoDB", "Express", "Node.js"],
     live_app: "http://codesources.co/",
     github: "https://github.com/abjj1999/CodeSources",
@@ -29,7 +29,7 @@ export const project = [
     name: "Workout tracker",
     description: "A website that allows users to track their workouts.",
     image: "/imgs/workout-tracker.png",
-    tags: ["React", "MUI"],
+    tags: ["React", "MUI", "RapidAPI", "Bootstrap"],
     live_app: "https://bespoke-florentine-2c461f.netlify.app/",
     github: "https://github.com/abjj1999/workout_app",
   },
@@ -45,14 +45,14 @@ export const project = [
     name: "Portfolio",
     description: "A website that allows users to view my portfolio.",
     image: "/imgs/portfolio.png",
-    tags: ["React", "Next.js", "Tailwind"],
+    tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
     live_app: "",
     github: "",
   },
   {
     name: "Job Tracker",
     description: "A website that allows users to track their job applications.",
-    image: "/imgs/job-tracker.png",
+    image: "/imgs/job-tracker.jpg",
     tags: ["Express.js", "Node.js", "SQL", "Sequelize", "Handlebars"],
     live_app: "https://reploy.herokuapp.com/",
     github: "https://github.com/abjj1999/Job-Tracker",
