@@ -48,7 +48,7 @@ const Navbar = () => {
         >
           Reach out
         </button>
-        <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] min-h-[52px] px-4 rounded-[10px] bg-gradient-to-r from-green-300 to-blue-500 hover:from-blue-500 hover:to-red-500 ">
+        {/* <button className="font-epilogue font-semibold text-[16px] text-white leading-[26px] min-h-[52px] px-4 rounded-[10px] bg-gradient-to-r from-green-300 to-blue-500 hover:from-blue-500 hover:to-red-500 ">
           <Link
             href="https://chess-game-seven.vercel.app/"
             rel="noreferrer"
@@ -56,7 +56,7 @@ const Navbar = () => {
           >
             Play Chess
           </Link>
-        </button>
+        </button> */}
 
         <div className="w-[52px] h-[52px] rounded-full bg-[#2c2f32] flex justify-center items-center cursor-pointer ">
           <GiMagicLamp className="text-[40px] text-white" />
