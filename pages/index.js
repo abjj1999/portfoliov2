@@ -49,21 +49,18 @@ export default function Home() {
             </div>
             <p className="  w-[80%] text-white gap-2 font-epilogue text-[18px]">
               My name is <span className="text-red-400">Abdullah </span> or{" "}
-              <span className="text-red-400">AB</span> . <br />
-              I'm a <span className="text-blue-400">Full-Stack Developer </span>
-              from <span className="text-red-400">Houston, TX</span>. <br />
-              I'm currently a <span className="text-blue-400">
-                Student
-              </span> at{" "}
+              <span className="text-red-400">AB</span> . <br />I am a{" "}
+              <span className="text-blue-400">Full-Stack Developer </span>
+              from <span className="text-red-400">Houston, TX</span>. <br />I am
+              currently a <span className="text-blue-400">Student</span> at{" "}
               <span className="text-red-400">University of Houston</span>.{" "}
               Studing <span className="text-blue-400">Computer Science</span>.
               <br />I have a passion for{" "}
               <span className="text-blue-400">Web Development</span> and{" "}
               <span className="text-blue-400">Software Engineering</span>.{" "}
-              <br />
-              I'm currently working on achieving my{" "}
+              <br />I am currently working on achieving my{" "}
               <span className="text-blue-400">AWS DEV certifcate</span>.<br />
-              I'm also working on Developing new and exciting full stack
+              I am also working on Developing new and exciting full stack
               projects. <br />
             </p>
             <div className="flex justify-between items-center">
