@@ -17,6 +17,22 @@ export const projects = [
     github: "https://github.com/abjj1999/crowdFunding",
   },
   {
+    name: "Zoom Clone",
+    description: "A website that allows users to video chat.",
+    image: "/imgs/zoom-clone.png",
+    tags: ["React", "Typescript", "ElasticUI", "Zegocloud", "Firebase"],
+    live_app: "https://zoom-clone-abjj1999.netlify.app/",
+    github: "https://github.com/abjj1999/zoomClone-"
+  },
+  {
+    name: "Ai Image Generator",
+    description: "A website that allows users to generate images.",
+    image: "/imgs/ai-gen.png",
+    tags: ["React", "Vite.js", "OpenAi", "Tailwind", "Node.js", "Express.js", "MongoDB"],
+    live_app: "https://ai-image-engine.netlify.app/",
+    github: "https://github.com/abjj1999/AI-Image-Generation"
+  },
+  {
     name: "E-Commerce",
     description:
       "A website that allows users to buy and sell world cup soccer balls.",
@@ -24,6 +40,14 @@ export const projects = [
     tags: ["React", "Next.js", "Stripe", "Sanity"],
     live_app: "https://sport-shop-jvqh3veqh-abjj1999.vercel.app/",
     github: "https://github.com/abjj1999/ShoppingCenter",
+  },
+  {
+    name: "Scan ANYTHING",
+    description: "A website that allows users to scan and generate QR codes.",
+    image: "/imgs/scanyscan.png",
+    tags: ["React", "Bootsrap", "qr-scanner", "qr-reader"],
+    live_app: "https://willowy-crisp-9d7baf.netlify.app/",
+    github: "https://github.com/abjj1999/ScanAnything"
   },
   {
     name: "Workout tracker",
@@ -57,22 +81,28 @@ export const projects = [
     live_app: "https://reploy.herokuapp.com/",
     github: "https://github.com/abjj1999/Job-Tracker",
   },
+  
 ];
 
 export const comingSoon = [
   {
-    name: "Card Game",
+    name: "Hotel Booking",
+    github: "https://github.com/abjj1999/book-it",
+    image: "/imgs/coming_soon.jpg",
+
   },
   {
-    name: "Chat App",
+    name: "Resume Builder",
+    github: "https://github.com/abjj1999/resume-Builder",
+    image: "/imgs/coming_soon.jpg",
+
   },
   {
-    name: "NFT Marketplace",
+    name: "inventory System",
+    github: "https://github.com/abjj1999/inventorySystem",
+    image: "/imgs/coming_soon.jpg",
+
   },
-  {
-    name: "Job board",
-  },
-  {
-    name: "workPlace management system",
-  },
+  
+  
 ];

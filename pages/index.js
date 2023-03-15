@@ -4,18 +4,18 @@ import { GiEnergyArrow, GiPentarrowsTornado, GiSparrow } from "react-icons/gi";
 // animate__animated animate__slideInRight
 export default function Home() {
   return (
-    <div className="w-full flex flex-col justify-between ">
-      <div className=" p-8 rounded-[20px]  flex flex-wrap justify-between flex-row">
+    <div className="w-full flex flex-col justify-between items-center ">
+      <div className=" text-centers p-8 rounded-[20px]  flex flex-wrap justify-between flex-row">
         <div className="p-10 w-100">
-          <h1 className=" animate__animated animate__slideInRight text-white font-bold font-epilogue text-[60px] lg:ml-[100px] uppercase">
+          <h1 className=" animate__animated animate__slideInRight text-white font-bold font-epilogue text-[60px]  uppercase">
             welcome
           </h1>
 
-          <h1 className="animate__animated animate__slideInRight text-white font-bold font-epilogue text-[60px] uppercase lg:ml-[200px]">
+          <h1 className="animate__animated animate__slideInRight text-white font-bold font-epilogue text-[60px] uppercase">
             <span className="text-red-400">{"<"}</span>to my
             <span className="text-blue-400">{"/>"}</span>
           </h1>
-          <h1 className="animate__animated animate__slideInRight text-white font-bold font-epilogue text-[60px] uppercase lg:ml-[250px]">
+          <h1 className="animate__animated animate__slideInRight text-white font-bold font-epilogue text-[60px] uppercase ">
             portfolio
           </h1>
           <div className="flex justify-end">
@@ -54,7 +54,7 @@ export default function Home() {
               from <span className="text-red-400">Houston, TX</span>. <br />I am
               currently a <span className="text-blue-400">Student</span> at{" "}
               <span className="text-red-400">University of Houston</span>.{" "}
-              Studing <span className="text-blue-400">Computer Science</span>.
+              Studying <span className="text-blue-400">Computer Science</span>.
               <br />I have a passion for{" "}
               <span className="text-blue-400">Web Development</span> and{" "}
               <span className="text-blue-400">Software Engineering</span>.{" "}
